@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bf202f6fb8c40bb40b7c6d8ffbef087f
-timeCreated: 1521054106
+guid: 7fc192c88beb99c4fb33d7dddb0e62e5
+timeCreated: 1521068471
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -11,7 +11,7 @@ ModelImporter:
     2100002: tree trunk
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Tree00
+    4300000: Tree
   externalObjects: {}
   materials:
     importMaterials: 1
