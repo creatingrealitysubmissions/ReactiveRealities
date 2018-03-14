@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class ProximityObject : MonoBehaviour
 {
+    [SerializeField] float triggeredScale;
+
+    float originalScale;
     bool inProximity = false;
 
     // Use this for initialization
     void Start()
     {
-
+        originalScale = transform.localScale.x;
     }
 
     // Update is called once per frame
@@ -21,12 +24,13 @@ public class ProximityObject : MonoBehaviour
     void OnProximityEnter()
     {
         Debug.Log("entered proximity");
-        transform.localScale = new Vector3(transform.localScale.x * 0.5f, transform.localScale.x * 0.5f, transform.localScale.x * 0.5f);
+        transform.localScale = new Vector3(triggeredScale, triggeredScale, triggeredScale);
     }
 
     void OnProximityExit()
     {
         Debug.Log("exit proximity");
+        transform.localScale = new Vector3(originalScale, originalScale, originalScale);
     }
 
     void OnProximityStay()

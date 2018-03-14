@@ -22,7 +22,9 @@ public class Controller : MonoBehaviour
 
         if (leftPressed && rightPressed)
         {
-
+            Debug.Log("Both triggers pressed");
+            Vector3 rightHandPosition = InputTracking.GetLocalPosition(XRNode.RightHand);
+            Vector3 leftHandPosition = InputTracking.GetLocalPosition(XRNode.LeftHand);
         }
         else
         {

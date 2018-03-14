@@ -1,21 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Gaze : MonoBehaviour
 {
     [SerializeField] float lookDistance;
     [SerializeField] float detectTime;
     [SerializeField] float focusTime;
-
-    Camera camera;
+    
     float timer = 0;
+    GazeObject detectedObject;
 
     // Use this for initialization
     void Start()
     {
-        camera = GetComponent<Camera>();
+
     }
 
     // Update is called once per frame
@@ -30,8 +29,9 @@ public class Gaze : MonoBehaviour
             if (timer > detectTime)
             {
                 GazeObject gazeObject = hit.collider.GetComponent<GazeObject>();
-                if (gazeObject)
+                if (gazeObject && gazeObject != detectedObject)
                 {
+                    detectedObject = gazeObject;
                     Debug.Log("detect");
                     gazeObject.OnDetect();
                     if (timer > focusTime)
@@ -40,11 +40,25 @@ public class Gaze : MonoBehaviour
                         gazeObject.OnFocus();
                     }
                 }
+                else
+                {
+                    timer = 0;
+                    if (detectedObject)
+                    {
+                        detectedObject.OnDetectExit();
+                        detectedObject = null;
+                    }
+                }
             }
         }
         else
         {
             timer = 0;
+            if (detectedObject)
+            {
+                detectedObject.OnDetectExit();
+                detectedObject = null;
+            }
         }
     }
 }

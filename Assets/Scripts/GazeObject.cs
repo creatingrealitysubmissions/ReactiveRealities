@@ -7,17 +7,18 @@ public class GazeObject : MonoBehaviour
 {
     [SerializeField] float scaleSpeed;
     [SerializeField] float detectedScale;
+    [SerializeField] float focusedScale;
 
     [SerializeField] UnityEvent detectedEvent;
     [SerializeField] UnityEvent focusedEvent;
-
-    bool detected = false;
-    float originalScale;
+    
+    float originalScale, scale;
+    bool detected = false, focused = false;
 
     // Use this for initialization
     void Start()
     {
-
+        originalScale = transform.localScale.x;
     }
 
     // Update is called once per frame
@@ -28,16 +29,33 @@ public class GazeObject : MonoBehaviour
 
     public void OnDetect()
     {
-        StopAllCoroutines();
-        StartCoroutine(Scale(detectedScale));
+        if (!detected)
+        {
+            detected = true;
+            StopAllCoroutines();
+            StartCoroutine(Scale(originalScale * detectedScale));
+        }
         detectedEvent.Invoke();
+    }
+
+    public void OnDetectExit()
+    {
+        if (detected)
+        {
+            detected = false;
+            StopAllCoroutines();
+            StartCoroutine(Scale(originalScale));
+        }
     }
 
     public void OnFocus()
     {
-        StopAllCoroutines();
-        StartCoroutine(Scale(2 * detectedScale));
-        focusedEvent.Invoke();
+        if (detected && !focused)
+        {
+            focused = true;
+            StopAllCoroutines();
+            StartCoroutine(Scale(originalScale * focusedScale));
+        }
     }
 
     IEnumerator Scale(float scale)

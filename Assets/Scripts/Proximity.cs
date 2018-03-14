@@ -28,7 +28,7 @@ public class Proximity : MonoBehaviour
             Vector3 objectPosition2D = Vector3.ProjectOnPlane(proximityObject.transform.position, Vector3.up);
 
             float distance = Vector3.Distance(position2D, objectPosition2D);
-            Debug.Log("distance: " + distance);
+            //Debug.Log("distance: " + distance);
 
             if (distance < triggerDistance)
             {
