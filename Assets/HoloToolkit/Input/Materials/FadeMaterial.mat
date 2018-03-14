@@ -8,8 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: FadeMaterial
   m_Shader: {fileID: 4800000, guid: f1f3948b20c230044bda31b620ddd37f, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _SPECULARHIGHLIGHTS_ON _USEAMBIENT_ON _USECOLOR_ON
-    _USEDIFFUSE_ON _USEMAINCOLOR_ON
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _USECOLOR_ON _USEMAINCOLOR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -92,13 +91,13 @@ Material:
     - _Shade4: 0
     - _SmoothnessTextureChannel: 0
     - _Specular: 10
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SrcBlend: 5
     - _UVSec: 0
-    - _UseAmbient: 1
+    - _UseAmbient: 0
     - _UseBumpMap: 0
     - _UseColor: 1
-    - _UseDiffuse: 1
+    - _UseDiffuse: 0
     - _UseEmissionColor: 0
     - _UseEmissionMap: 0
     - _UseGlossMap: 0
