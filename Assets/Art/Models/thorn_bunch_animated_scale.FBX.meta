@@ -1,16 +1,60 @@
 fileFormatVersion: 2
-guid: f37be529d8cee6b4d8e8806dd81e5618
-timeCreated: 1520999957
+guid: fcb32ceddce863f44bd60111c340796d
+timeCreated: 1520999959
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Thorn001
+    100002: Thorn002
+    100004: Thorn003
+    100006: Thorn004
+    100008: Thorn005
+    100010: Thorn006
+    100012: Thorn007
+    100014: Thorn008
+    100016: Thorn009
+    100018: //RootNode
+    400000: Thorn001
+    400002: Thorn002
+    400004: Thorn003
+    400006: Thorn004
+    400008: Thorn005
+    400010: Thorn006
+    400012: Thorn007
+    400014: Thorn008
+    400016: Thorn009
+    400018: //RootNode
     2100000: 'Material #25'
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Thorn007
+    2100002: 'Material #26'
+    2100004: 'Material #37 Slot #3'
+    2300000: Thorn001
+    2300002: Thorn002
+    2300004: Thorn003
+    2300006: Thorn004
+    2300008: Thorn005
+    2300010: Thorn006
+    2300012: Thorn007
+    2300014: Thorn008
+    2300016: Thorn009
+    3300000: Thorn001
+    3300002: Thorn002
+    3300004: Thorn003
+    3300006: Thorn004
+    3300008: Thorn005
+    3300010: Thorn006
+    3300012: Thorn007
+    3300014: Thorn008
+    3300016: Thorn009
+    4300000: Thorn001
+    4300002: Thorn002
+    4300004: Thorn003
+    4300006: Thorn004
+    4300008: Thorn005
+    4300010: Thorn006
+    4300012: Thorn007
+    4300014: Thorn009
+    4300016: Thorn008
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}

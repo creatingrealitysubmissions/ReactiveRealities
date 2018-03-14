@@ -1,18 +1,24 @@
 fileFormatVersion: 2
-guid: f37be529d8cee6b4d8e8806dd81e5618
-timeCreated: 1520999957
+guid: 26de875280f93f046a334547f319ab97
+timeCreated: 1520998224
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: 'Material #25'
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Thorn007
-    7400000: Take 001
-    9500000: //RootNode
+    100000: Portal
+    100002: Portal-tree
+    100004: //RootNode
+    400000: Portal
+    400002: Portal-tree
+    400004: //RootNode
+    2100000: 'Material #24'
+    2100002: 'Material #25'
+    2300000: Portal
+    2300002: Portal-tree
+    3300000: Portal
+    3300002: Portal-tree
+    4300000: Portal-tree
+    4300002: Portal
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -87,7 +93,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

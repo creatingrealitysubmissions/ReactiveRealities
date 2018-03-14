@@ -1,16 +1,18 @@
 fileFormatVersion: 2
-guid: f37be529d8cee6b4d8e8806dd81e5618
-timeCreated: 1520999957
+guid: eeb028277a0ca0b43815876960975172
+timeCreated: 1520999956
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: 'Material #25'
+    2100000: 'Material #26'
+    2100002: 'Material #37 Slot #3'
+    2100004: 'Material #25'
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Thorn007
+    4300000: Thorn009
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
