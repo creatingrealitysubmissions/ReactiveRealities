@@ -29,7 +29,7 @@ public class Gaze : MonoBehaviour
             if (timer > detectTime)
             {
                 GazeObject gazeObject = hit.collider.GetComponent<GazeObject>();
-                if (gazeObject)
+                if (gazeObject && (!detectedObject || gazeObject == detectedObject))
                 {
                     detectedObject = gazeObject;
                     Debug.Log("detect");

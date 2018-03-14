@@ -6,6 +6,8 @@ using UnityEngine.XR.WSA.Input;
 
 public class Controller : MonoBehaviour
 {
+    SphereCollider collider;
+
     // Use this for initialization
     void Start()
     {
