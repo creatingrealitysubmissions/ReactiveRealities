@@ -43,6 +43,7 @@ public class GazeObject : MonoBehaviour
         if (detected)
         {
             detected = false;
+            focused = false;
             StopAllCoroutines();
             StartCoroutine(Scale(originalScale));
         }
@@ -56,6 +57,7 @@ public class GazeObject : MonoBehaviour
             StopAllCoroutines();
             StartCoroutine(Scale(originalScale * focusedScale));
         }
+        focusedEvent.Invoke();
     }
 
     IEnumerator Scale(float scale)

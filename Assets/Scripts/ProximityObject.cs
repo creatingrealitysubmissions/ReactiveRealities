@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ProximityObject : MonoBehaviour
 {
     [SerializeField] float triggeredScale;
+
+    [SerializeField] UnityEvent triggeredEvent;
+    [SerializeField] UnityEvent revertedEvent;
 
     float originalScale;
     bool inProximity = false;
@@ -25,12 +29,14 @@ public class ProximityObject : MonoBehaviour
     {
         Debug.Log("entered proximity");
         transform.localScale = new Vector3(triggeredScale, triggeredScale, triggeredScale);
+        triggeredEvent.Invoke();
     }
 
     void OnProximityExit()
     {
         Debug.Log("exit proximity");
         transform.localScale = new Vector3(originalScale, originalScale, originalScale);
+        revertedEvent.Invoke();
     }
 
     void OnProximityStay()
