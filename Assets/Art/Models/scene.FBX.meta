@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 1849f9ac29fea7340b0d715b76b3a576
+timeCreated: 1521073199
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: branches012
+    100002: branches013
+    100004: branches014
+    100006: branches015
+    100008: branches016
+    100010: branches017
+    100012: branches018
+    100014: branches019
+    100016: branches020
+    100018: branches021
+    100020: branches022
+    100022: Bush001
+    100024: Bush002
+    100026: Bush003
+    100028: Bush004
+    100030: Cylinder001
+    100032: Cylinder002
+    100034: Leaves506
+    100036: //RootNode
+    400000: branches012
+    400002: branches013
+    400004: branches014
+    400006: branches015
+    400008: branches016
+    400010: branches017
+    400012: branches018
+    400014: branches019
+    400016: branches020
+    400018: branches021
+    400020: branches022
+    400022: Bush001
+    400024: Bush002
+    400026: Bush003
+    400028: Bush004
+    400030: Cylinder001
+    400032: Cylinder002
+    400034: Leaves506
+    400036: //RootNode
+    2100000: 'Material #21'
+    2100002: tree trunk
+    2100004: leaf
+    2300000: branches012
+    2300002: branches013
+    2300004: branches014
+    2300006: branches015
+    2300008: branches016
+    2300010: branches017
+    2300012: branches018
+    2300014: branches019
+    2300016: branches020
+    2300018: branches021
+    2300020: branches022
+    2300022: Bush001
+    2300024: Bush002
+    2300026: Bush003
+    2300028: Bush004
+    2300030: Cylinder001
+    2300032: Cylinder002
+    2300034: Leaves506
+    3300000: branches012
+    3300002: branches013
+    3300004: branches014
+    3300006: branches015
+    3300008: branches016
+    3300010: branches017
+    3300012: branches018
+    3300014: branches019
+    3300016: branches020
+    3300018: branches021
+    3300020: branches022
+    3300022: Bush001
+    3300024: Bush002
+    3300026: Bush003
+    3300028: Bush004
+    3300030: Cylinder001
+    3300032: Cylinder002
+    3300034: Leaves506
+    4300000: Cylinder001
+    4300002: branches012
+    4300004: branches013
+    4300006: branches014
+    4300008: branches015
+    4300010: branches016
+    4300012: branches017
+    4300014: branches018
+    4300016: branches019
+    4300018: Bush001
+    4300020: Leaves506
+    4300022: Bush002
+    4300024: Bush003
+    4300026: Bush004
+    4300028: branches020
+    4300030: Cylinder002
+    4300032: branches021
+    4300034: branches022
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
